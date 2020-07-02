@@ -1,0 +1,45 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.block-one {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
+
+.block-one .block-one__circle {
+  width: 60px;
+  height: 60px;
+  background-color: grey;
+  border-radius: 100px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.block-two {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+
+.block-two .block-two__circle {
+  width: 60px;
+  height: 60px;
+  background-color: pink;
+  border-radius: 100px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+/*# sourceMappingURL=index.css.map */
